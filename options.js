@@ -43,4 +43,5 @@ module.exports = {
 	machines: machines,
 	servers: servers,
 	cookie_key: "auth",
+	unsecure_admin: true,
 };
