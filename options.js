@@ -13,6 +13,7 @@ servers = {
 		region: "US",
 		name: "I",
 		path: "/socket.io/",
+		api_path: "/server.api/",
 		local_ip: "0.0.0.0",
 		local_port: 7192,
 		address: "localhost:7192",

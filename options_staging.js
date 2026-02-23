@@ -14,6 +14,7 @@ servers = {
 		region: "EU",
 		name: "I",
 		path: "/ws/",
+		api_path: "/api/",
 		local_ip: "0.0.0.0",
 		local_port: 9001,
 		address: "your-staging-domain.example.com",
