@@ -6,14 +6,9 @@ const rk = (n) => crypto.randomBytes(n).toString("hex");
 
 module.exports = {
 	server_keyword: rk(16),
-	mongodb_ip: "127.0.0.1",
-	mongodb_port: "27017",
-	mongodb_user: "",
-	mongodb_password: "",
+	mongodb_uri: "mongodb://localhost:27017/adventureland",
 	mongodb_name: "adventureland",
-	mongodb_auth_source: "adventureland",
-	mongodb_tls: false,
-	mongodb_ca_file: path.resolve(__dirname, "your-ca.crt"),
+	mongodb_config: {}, // e.g. { tlsCAFile: path.resolve(__dirname, "your-ca.crt") }
 	stripe_test_api_key: "",
 	stripe_test_pkey: "",
 	stripe_api_key: "",
