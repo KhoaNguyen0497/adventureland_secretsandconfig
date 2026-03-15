@@ -10,7 +10,7 @@ machines = {
 
 servers = {
 	local: {
-		region: "US",
+		region: "OCE",
 		name: "I",
 		path: "/socket.io/",
 		api_path: "/server.api/",
@@ -38,8 +38,8 @@ module.exports = {
 	merchant_map: "main",
 	port: 8090,
 	close_timeout: 4000,
-	ip_limit: 3,
-	character_limit: 3,
+	ip_limit: 10,
+	character_limit: 10,
 	fast_sdk: 0,
 	machines: machines,
 	servers: servers,
